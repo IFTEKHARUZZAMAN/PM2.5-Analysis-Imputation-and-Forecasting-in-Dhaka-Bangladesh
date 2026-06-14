@@ -1,10 +1,33 @@
+<div align="center">
+
+# PM2.5 Air Quality Analysis and Forecasting in Dhaka, Bangladesh
+
+[![Python](https://img.shields.io/badge/Python-3.10+-blue.svg)](https://www.python.org/)
+[![Jupyter Notebook](https://img.shields.io/badge/Jupyter-Notebook-orange.svg)](https://jupyter.org/)
+[![License](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)
+[![Status](https://img.shields.io/badge/Project-Research%20Portfolio-success.svg)]()
+[![Made With](https://img.shields.io/badge/Made%20with-Machine%20Learning-red.svg)]()
+
 # PM2.5 Air Quality Analysis and Forecasting in Dhaka
+
+</div>
+
+---
 
 ## Project Overview
 
-Air pollution is a major environmental and public health challenge in Dhaka, Bangladesh. This project analyzes PM2.5 concentration data and investigates its relationship with meteorological variables such as temperature, precipitation, and wind speed.
+Air pollution is one of the most critical environmental challenges in Bangladesh, with PM2.5 concentrations frequently exceeding the safety limits recommended by the :contentReference[oaicite:0]{index=0}.
 
-The study also applies time-series forecasting techniques to predict future PM2.5 levels and evaluate potential health risks.
+This project develops a complete analytical framework for:
+
+- PM2.5 data preprocessing and cleaning
+- Missing value imputation using Kalman Filtering
+- Exploratory data analysis and visualization
+- Statistical and machine learning modeling
+- Time-series forecasting
+- Health risk assessment
+
+The project demonstrates how mathematical and statistical techniques can be applied to solve real-world environmental problems.
 
 ---
 
@@ -18,6 +41,27 @@ The study also applies time-series forecasting techniques to predict future PM2.
 - Assess public health risk categories based on PM2.5 levels.
 
 ---
+# Project Workflow
+
+```mermaid
+flowchart TD
+A[Raw PM2.5 Dataset]
+B[Data Cleaning]
+C[Missing Value Imputation]
+D[Exploratory Data Analysis]
+E[Statistical Modelling]
+F[Forecasting]
+G[Model Evaluation]
+H[Health Risk Assessment]
+
+A --> B
+B --> C
+C --> D
+D --> E
+E --> F
+F --> G
+G --> H
+```
 
 ## Dataset
 
@@ -131,9 +175,112 @@ Monthly PM2.5 heatmap.
 
 ---
 
-## Installation
+# Installation
 
-Clone the repository:
+```bash
+git clone https://github.com/yourusername/PM2.5-Forecasting-Dhaka.git
 
+cd PM2.5-Forecasting-Dhaka
+
+pip install -r requirements.txt
+```
+
+---
+
+# Requirements
+
+```text
+pandas
+numpy
+matplotlib
+seaborn
+scipy
+statsmodels
+scikit-learn
+jupyter
+```
+
+---
+
+# Running the Project
+
+```bash
+jupyter notebook Final_PM_2_5.ipynb
+```
+
+or
+
+```bash
+jupyter lab
+```
+
+---
+
+# Key Findings
+
+- PM2.5 concentrations frequently exceed recommended safety levels.
+- Significant seasonal variations exist.
+- Missing observations can be effectively reconstructed using Kalman Filtering.
+- Statistical models capture important temporal dynamics.
+- Forecasting models provide valuable insights for environmental policy and public health planning.
+
+---
+
+# Future Work
+
+- Incorporate meteorological variables.
+- Implement ARIMA and SARIMA models.
+- Develop LSTM-based deep learning models.
+- Build real-time forecasting dashboards.
+- Extend analysis to other cities in Bangladesh.
+
+---
+
+# Research Applications
+
+- Environmental Statistics
+- Air Pollution Forecasting
+- Time Series Analysis
+- Public Health Analytics
+- Machine Learning Applications in Environmental Science
+
+---
+
+# Citation
+
+```bibtex
+@misc{ZAMAN2026,
+  author = {MD IFTEKHARUZZAMAN},
+  title = {PM2.5 Air Quality Analysis and Forecasting in Dhaka, Bangladesh},
+  year = {2026},
+  publisher = {GitHub},
+  url = {https://github.com/yourusername/PM2.5-Forecasting-Dhaka}
+}
+```
+
+---
+
+# Author
+
+**MD IFTEKHARUZZAMAN**
+
+M.Sc. in Mathematics
+
+Research Interests:
+
+- Applied Mathematics
+- Time Series Analysis
+- Environmental Statistics
+- Machine Learning
+- Air Pollution Forecasting
+
+---
+
+# Contact
+
+📧 Email: iftekharuzzaman19@gmail.com
+🔗 LinkedIn: [your_linkedin](https://www.linkedin.com/in/md-iftekharuzzaman-9987b5245/)
+
+🔗 Google Scholar: your_google_scholar
 ```bash
 git clone https://github.com/yourusername/PM25-Air-Quality-Forecasting.git
