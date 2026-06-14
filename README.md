@@ -1,5 +1,7 @@
 <div align="center">
 
+> Research Portfolio Project | Environmental Statistics | Time Series Analysis | Machine Learning
+
 # PM2.5 Air Quality Analysis and Forecasting in Dhaka, Bangladesh
 
 [![Python](https://img.shields.io/badge/Python-3.10+-blue.svg)](https://www.python.org/)
@@ -245,6 +247,10 @@ jupyter lab
 - Machine Learning Applications in Environmental Science
 
 ---
+
+## Note
+
+Some examples in this notebook use simulated data for demonstrating modeling and visualization techniques. The framework can be directly extended to real PM2.5 monitoring datasets.
 
 # Citation
 
